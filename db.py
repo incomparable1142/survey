@@ -24,7 +24,7 @@ class Mdb:
         # mlab db
         conn_str = "mongodb://surveyuser:surveypass@ds159776.mlab.com:59776/survey"
         client = MongoClient(conn_str)
-        self.db = client['surveyworld'] # local db
+        self.db = client['survey'] # local db
         
 
 #############################################
